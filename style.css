@@ -1,0 +1,114 @@
+ /* Colors and fonts */
+
+body {
+	background: rgb(237, 246, 253);
+	color: rgb(69, 69, 76);
+	font-family: helvetica;
+	font-size: 18px;
+
+}
+
+h2, h3 {
+	font-family: helvetica;
+}
+
+h1 {
+	color: rgb(69, 69, 76);
+	font-family: 'Cinzel', serif;
+	font-weight: 60;
+	letter-spacing: 6px;
+	font-size: 30px;
+}
+
+h2, {
+	color: rgb(69, 69, 76);
+	font-weight: 90;
+	letter-spacing: 9px;
+	font-size: 30px;
+}
+
+p{
+	color: white;
+
+}
+
+
+a {
+	text-decoration: none;
+	color: red;
+}
+
+a:hover {
+	color: red;
+}
+
+
+
+
+/* Custom design with class */
+
+
+
+@media (max-width: 760px) {
+ .container {
+ 	width: 600px;
+	}
+}
+
+@media (max-width: 500px)  {
+	.container  {
+		width: 400px;
+		}
+}
+
+
+.card-grey {
+	background: rgb(182, 178, 177);
+	padding: 16px;
+	box-shadow: 5px 10px 20px rgb(0 0 0/23%);
+	border-radius: 7px;
+	margin: 30px 15px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+	width: 140px;
+	height: 140px;}
+
+.btn-grey {
+	background: rgb(49, 52, 53);
+	color: white;
+	padding: 5px 30px; 
+	border border-radius: 6px;
+}
+
+.btn-grey: hover {
+	background color: white;
+	color: red;
+}
+
+.container {
+	width: 700px;
+	margin: 10px auto;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 40px;
+	color: black;
+}
+
+
+
+
+
